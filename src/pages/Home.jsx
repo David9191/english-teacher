@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <section className="hero glass">
         <div>
-          <h1>나만의 영문법 선생님</h1>
+          <h1>지성쌤의 영문법 뽀개기</h1>
           <p className="muted">
             UNIT마다 자세한 설명 · 예문 50개 · 문제 50개. 하나씩 끝내고 ✔ 표시해 보세요.
           </p>
