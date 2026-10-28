@@ -16,8 +16,7 @@ export default function App() {
           <a href="#/" className="brand" id="brand-link">
             <span className="brand-mark">Aa</span>
             <span>
-              My English Teacher
-              <small>강성태 영문법 필수편</small>
+              지성쌤의 영문법
             </span>
           </a>
           <nav className="nav" aria-label="사이트 메뉴">
