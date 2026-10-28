@@ -12,11 +12,12 @@ import {
 } from '../lib/store'
 import { buildExplainPrompt, buildQuizPrompt, parseContentJson } from '../lib/prompt'
 
+// 콘텐츠 추가는 로컬 개발 서버(파일 저장 API)에서만 동작 → 배포 빌드에서는 숨김
 const TABS = [
   ['explain', '📖 설명'],
   ['examples', '💬 예문'],
   ['quiz', '✏️ 문제'],
-  ['add', '➕ 콘텐츠 추가'],
+  ...(import.meta.env.DEV ? [['add', '➕ 콘텐츠 추가']] : []),
 ]
 
 export default function UnitPage({ id, tab }) {
@@ -67,7 +68,7 @@ export default function UnitPage({ id, tab }) {
       {tab === 'explain' && <Explain content={content} unit={unit} />}
       {tab === 'examples' && <Examples content={content} unit={unit} />}
       {tab === 'quiz' && <Quiz content={content} unit={unit} results={progress.quiz[unit.id] ?? {}} />}
-      {tab === 'add' && <AddContent unit={unit} content={content} />}
+      {import.meta.env.DEV && tab === 'add' && <AddContent unit={unit} content={content} />}
 
       <footer className="pager">
         {prev ? <a className="btn" href={`#/unit/${prev.id}`}>← UNIT {prev.id}</a> : <span />}
@@ -81,7 +82,9 @@ function Empty({ unit, what }) {
   return (
     <div className="empty glass">
       <p>아직 {what}이(가) 없어요.</p>
-      <a className="btn primary" href={`#/unit/${unit.id}/add`}>Gemini로 만들어서 추가하기</a>
+      {import.meta.env.DEV && (
+        <a className="btn primary" href={`#/unit/${unit.id}/add`}>Gemini로 만들어서 추가하기</a>
+      )}
     </div>
   )
 }

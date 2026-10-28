@@ -6,7 +6,7 @@ import Chat from './pages/Chat.jsx'
 export default function App() {
   const hash = useHash()
   const m = hash.match(/^\/unit\/(\d+)(?:\/(\w+))?$/)
-  const isChat = hash.startsWith('/chat')
+  const isChat = import.meta.env.DEV && hash.startsWith('/chat')
 
   return (
     <>
@@ -22,7 +22,9 @@ export default function App() {
           </a>
           <nav className="nav" aria-label="사이트 메뉴">
             <a id="nav-study" href="#/" className={!isChat ? 'active' : ''}>문법 학습</a>
-            <a id="nav-chat" href="#/chat" className={isChat ? 'active' : ''}>AI 채팅</a>
+            {import.meta.env.DEV && (
+              <a id="nav-chat" href="#/chat" className={isChat ? 'active' : ''}>AI 채팅</a>
+            )}
           </nav>
         </div>
       </header>
