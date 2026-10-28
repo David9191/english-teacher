@@ -1,0 +1,719 @@
+{
+  "sections": [
+    {
+      "heading": "4형식 문장의 구조와 특징",
+      "body": "4형식 문장은 목적어를 2개 가지는 문장으로, **[주어(S) + 동사(V) + 간접목적어(IO) + 직접목적어(DO)]**로 이루어집니다.\n\n- **간접목적어 (Indirect Object)**: 주로 '사람'이나 대상이 오며, 우리말로는 **'~에게'**라고 해석됩니다.\n- **직접목적어 (Direct Object)**: 주로 '사물'이 오며, 동사의 직접적인 대상이 되어 **'~을/를'**이라고 해석됩니다.\n\n- **주의할 점!**\n반드시 **'사람(~에게)'이 먼저 오고, '사물(~을/를)'이 뒤에** 와야 4형식 문장이 성립합니다. 순서가 바뀌면 4형식이 아니게 됩니다."
+    },
+    {
+      "heading": "주요 4형식 동사 (수여동사)",
+      "body": "4형식에 쓰이는 동사들을 **수여동사**라고 부릅니다. 누군가에게 무언가를 '주다'라는 의미를 기본적으로 가지고 있기 때문입니다.\n\n- **대표적인 수여동사**\n1. 기본적으로 '주다'의 의미: **give** (주다), **send** (보내다), **show** (보여주다), **teach** (가르쳐주다), **tell** (말해주다), **lend** (빌려주다)\n2. '정성/노력'이 들어가는 동사: **make** (만들어주다), **buy** (사주다), **cook** (요리해주다), **get** (구해주다), **find** (찾아주다)\n3. '질문/요청'의 의미: **ask** (물어보다, 부탁하다)\n\n- **헷갈리는 포인트**\n단순히 make는 '만들다'로 해석하기 쉽지만, 4형식으로 쓰이면 '~에게 ~을 **만들어 주다**'로 해석해야 자연스럽습니다."
+    },
+    {
+      "heading": "4형식 문장을 3형식 문장으로 전환하기",
+      "body": "4형식 문장의 '간접목적어(사람)'와 '직접목적어(사물)'의 자리를 바꿀 수 있습니다. 사물(~을/를)이 먼저 오고 사람(~에게)이 뒤로 가면, 사람 앞에 **반드시 전치사**를 써야 하며 이때 문장은 3형식(S+V+O+수식어구)이 됩니다.\n\n동사의 종류에 따라 사용하는 전치사(to, for, of)가 다릅니다.\n\n- **1. 전치사 to를 쓰는 동사 (방향성)**\n물건이나 정보가 상대방에게 이동하는 '방향'을 강조하는 대부분의 수여동사입니다.\n동사: **give, send, show, teach, tell, lend, bring, pass** 등\n(예: give me a book -> give a book **to** me)\n\n- **2. 전치사 for를 쓰는 동사 (정성과 노력)**\n상대방을 위해 시간, 돈, 정성 등의 '노력'을 들여 무언가를 해주는 동사입니다.\n동사: **make, buy, get, cook, find, choose, build** 등\n(예: buy me a book -> buy a book **for** me)\n\n- **3. 전치사 of를 쓰는 동사 (질문)**\n상대방으로부터 무언가를 이끌어내는 질문이나 요구를 나타냅니다.\n동사: **ask** (inquire, beg 등)\n(예: ask me a favor -> ask a favor **of** me)\n\n- **핵심 암기 팁!**\n전치사 for와 of를 쓰는 동사들만 따로 암기하고, 나머지는 모두 to를 쓴다고 기억하면 쉽습니다."
+    }
+  ],
+  "summary": "목적어를 2개(~에게, ~을/를) 취하는 4형식 문장의 구조를 이해하고, 이를 3형식으로 전환할 때 동사에 따라 달라지는 전치사(to, for, of)의 규칙을 완벽히 정리합니다.",
+  "examples": [
+    {
+      "en": "He **gave me a gift**.",
+      "ko": "그는 나에게 선물을 주었다."
+    },
+    {
+      "en": "She **sent him a letter**.",
+      "ko": "그녀는 그에게 편지를 보냈다."
+    },
+    {
+      "en": "I will **show you my room**.",
+      "ko": "나는 너에게 내 방을 보여줄 것이다."
+    },
+    {
+      "en": "They **teach us English**.",
+      "ko": "그들은 우리에게 영어를 가르친다."
+    },
+    {
+      "en": "Please **tell me the truth**.",
+      "ko": "나에게 진실을 말해 주세요."
+    },
+    {
+      "en": "He **lent me some money**.",
+      "ko": "그는 나에게 돈을 좀 빌려주었다."
+    },
+    {
+      "en": "Can you **bring me a glass of water**?",
+      "ko": "나에게 물 한 잔 가져다줄 수 있니?"
+    },
+    {
+      "en": "I **handed him the document**.",
+      "ko": "나는 그에게 그 서류를 건네주었다."
+    },
+    {
+      "en": "She **offered me a job**.",
+      "ko": "그녀는 나에게 일자리를 제안했다."
+    },
+    {
+      "en": "We **paid them fifty dollars**.",
+      "ko": "우리는 그들에게 50달러를 지불했다."
+    },
+    {
+      "en": "He **promised her a new car**.",
+      "ko": "그는 그녀에게 새 차를 약속했다."
+    },
+    {
+      "en": "She **read us a story**.",
+      "ko": "그녀는 우리에게 이야기를 읽어주었다."
+    },
+    {
+      "en": "I **wrote my mother a letter**.",
+      "ko": "나는 어머니에게 편지를 썼다."
+    },
+    {
+      "en": "Can you **pass me the salt**?",
+      "ko": "나에게 소금 좀 건네줄래?"
+    },
+    {
+      "en": "The teacher **awarded him a prize**.",
+      "ko": "선생님은 그에게 상을 수여했다."
+    },
+    {
+      "en": "I will **make you some coffee**.",
+      "ko": "내가 너에게 커피를 좀 만들어 줄게."
+    },
+    {
+      "en": "He **bought his son a toy**.",
+      "ko": "그는 그의 아들에게 장난감을 사주었다."
+    },
+    {
+      "en": "She **got me a ticket** for the concert.",
+      "ko": "그녀는 나에게 그 콘서트 표를 구해 주었다."
+    },
+    {
+      "en": "My mother **cooked us a delicious dinner**.",
+      "ko": "우리 어머니는 우리에게 맛있는 저녁을 요리해 주셨다."
+    },
+    {
+      "en": "I **found him a good job**.",
+      "ko": "나는 그에게 좋은 직장을 찾아 주었다."
+    },
+    {
+      "en": "Can you **choose me a nice tie**?",
+      "ko": "나에게 멋진 넥타이를 골라줄 수 있나요?"
+    },
+    {
+      "en": "She **ordered herself a new dress**.",
+      "ko": "그녀는 자신에게 새 드레스를 주문해 주었다."
+    },
+    {
+      "en": "Can I **ask you a question**?",
+      "ko": "너에게 질문 하나 해도 될까?"
+    },
+    {
+      "en": "He **asked me a favor**.",
+      "ko": "그는 나에게 부탁을 하나 했다."
+    },
+    {
+      "en": "The reporter **asked the actor a difficult question**.",
+      "ko": "그 기자는 그 배우에게 어려운 질문을 했다."
+    },
+    {
+      "en": "He **gave a gift to me**.",
+      "ko": "그는 선물을 나에게 주었다. (3형식 전환)"
+    },
+    {
+      "en": "She **sent a letter to him**.",
+      "ko": "그녀는 편지를 그에게 보냈다. (3형식 전환)"
+    },
+    {
+      "en": "I will **show my room to you**.",
+      "ko": "나는 내 방을 너에게 보여줄 것이다. (3형식 전환)"
+    },
+    {
+      "en": "They **teach English to us**.",
+      "ko": "그들은 영어를 우리에게 가르친다. (3형식 전환)"
+    },
+    {
+      "en": "Please **tell the truth to me**.",
+      "ko": "진실을 나에게 말해 주세요. (3형식 전환)"
+    },
+    {
+      "en": "He **lent some money to me**.",
+      "ko": "그는 돈을 약간 나에게 빌려주었다. (3형식 전환)"
+    },
+    {
+      "en": "Can you **bring a glass of water to me**?",
+      "ko": "물 한 잔을 나에게 가져다줄 수 있니? (3형식 전환)"
+    },
+    {
+      "en": "I **handed the document to him**.",
+      "ko": "나는 그 서류를 그에게 건네주었다. (3형식 전환)"
+    },
+    {
+      "en": "She **offered a job to me**.",
+      "ko": "그녀는 일자리를 나에게 제안했다. (3형식 전환)"
+    },
+    {
+      "en": "We **paid fifty dollars to them**.",
+      "ko": "우리는 50달러를 그들에게 지불했다. (3형식 전환)"
+    },
+    {
+      "en": "I will **make some coffee for you**.",
+      "ko": "내가 커피를 너를 위해 만들어 줄게. (3형식 전환)"
+    },
+    {
+      "en": "He **bought a toy for his son**.",
+      "ko": "그는 장난감을 그의 아들을 위해 사주었다. (3형식 전환)"
+    },
+    {
+      "en": "She **got a ticket for me**.",
+      "ko": "그녀는 표를 나를 위해 구해 주었다. (3형식 전환)"
+    },
+    {
+      "en": "My mother **cooked a delicious dinner for us**.",
+      "ko": "어머니는 맛있는 저녁을 우리를 위해 요리해 주셨다. (3형식 전환)"
+    },
+    {
+      "en": "I **found a good job for him**.",
+      "ko": "나는 좋은 직장을 그를 위해 찾아 주었다. (3형식 전환)"
+    },
+    {
+      "en": "Can you **choose a nice tie for me**?",
+      "ko": "멋진 넥타이를 나를 위해 골라줄 수 있나요? (3형식 전환)"
+    },
+    {
+      "en": "She **ordered a new dress for herself**.",
+      "ko": "그녀는 새 드레스를 자신을 위해 주문했다. (3형식 전환)"
+    },
+    {
+      "en": "He **built a beautiful house for his family**.",
+      "ko": "그는 아름다운 집을 그의 가족을 위해 지었다. (3형식 전환)"
+    },
+    {
+      "en": "Can I **ask a question of you**?",
+      "ko": "질문 하나를 너에게 해도 될까? (3형식 전환)"
+    },
+    {
+      "en": "He **asked a favor of me**.",
+      "ko": "그는 부탁 하나를 나에게 했다. (3형식 전환)"
+    },
+    {
+      "en": "The reporter **asked a difficult question of the actor**.",
+      "ko": "그 기자는 어려운 질문을 그 배우에게 했다. (3형식 전환)"
+    },
+    {
+      "en": "The company **offered the successful candidate a high salary**.",
+      "ko": "그 회사는 합격한 지원자에게 높은 연봉을 제안했다."
+    },
+    {
+      "en": "The organization **sends food and medical supplies to people in need**.",
+      "ko": "그 단체는 식량과 의료 물품을 도움이 필요한 사람들에게 보낸다. (3형식 전환)"
+    },
+    {
+      "en": "My grandparents always **buy my siblings and me wonderful presents** on our birthdays.",
+      "ko": "조부모님은 항상 생일마다 내 형제들과 나에게 훌륭한 선물들을 사주신다."
+    },
+    {
+      "en": "She **made a huge chocolate cake for her friend's birthday party**.",
+      "ko": "그녀는 친구의 생일 파티를 위해 커다란 초콜릿 케이크를 만들었다. (3형식 전환)"
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "question": "He gave ____.",
+      "choices": [
+        "me a book",
+        "a book me",
+        "to me a book",
+        "me for a book"
+      ],
+      "answer": 0,
+      "explanation": "4형식 문장은 '주어 + 동사 + 간접목적어(사람) + 직접목적어(사물)'의 어순입니다. '나에게(me) 책을(a book)' 순서가 되어야 합니다. (해석: 그는 나에게 책을 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She sent ____.",
+      "choices": [
+        "a letter him",
+        "him a letter",
+        "for him a letter",
+        "him to a letter"
+      ],
+      "answer": 1,
+      "explanation": "4형식 수여동사 send 뒤에는 '~에게(him) ~을(a letter)' 순서로 목적어가 와야 합니다. (해석: 그녀는 그에게 편지를 보냈다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Can you show ____?",
+      "choices": [
+        "me to the picture",
+        "the picture me",
+        "me the picture",
+        "to me the picture"
+      ],
+      "answer": 2,
+      "explanation": "show 역시 4형식으로 쓰일 때 '간접목적어(me) + 직접목적어(the picture)' 순서가 됩니다. (해석: 나에게 그 사진을 보여줄 수 있니?)"
+    },
+    {
+      "type": "choice",
+      "question": "They teach ____.",
+      "choices": [
+        "us English",
+        "English us",
+        "to us English",
+        "for us English"
+      ],
+      "answer": 0,
+      "explanation": "teach 뒤에 '우리에게(us) 영어를(English)' 어순이 맞습니다. (해석: 그들은 우리에게 영어를 가르친다.)"
+    },
+    {
+      "type": "choice",
+      "question": "My father bought ____.",
+      "choices": [
+        "a bike me",
+        "me to a bike",
+        "to me a bike",
+        "me a bike"
+      ],
+      "answer": 3,
+      "explanation": "buy가 4형식으로 쓰여 '나에게(me) 자전거를(a bike)' 사주셨다는 의미가 됩니다. (해석: 나의 아버지는 나에게 자전거를 사주셨다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He told ____ (나에게) the truth.",
+      "answer": "me",
+      "explanation": "4형식 동사 tell 뒤에 사람을 나타내는 간접목적어 me가 옵니다. (해석: 그는 나에게 진실을 말했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She made ____ (그녀의 아들에게) a cake.",
+      "answer": "her son",
+      "explanation": "4형식 동사 make 뒤에 '~에게' 해당하는 her son이 먼저 옵니다. (해석: 그녀는 그녀의 아들에게 케이크를 만들어 주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I will lend ____ (너에게) some money.",
+      "answer": "you",
+      "explanation": "4형식 동사 lend 뒤에 간접목적어 you가 옵니다. (해석: 나는 너에게 약간의 돈을 빌려줄 것이다.)"
+    },
+    {
+      "type": "blank",
+      "question": "Please pass ____ (나에게) the salt.",
+      "answer": "me",
+      "explanation": "동사 pass 뒤에 사람을 나타내는 me가 먼저 와서 4형식을 이룹니다. (해석: 나에게 소금을 건네주세요.)"
+    },
+    {
+      "type": "blank",
+      "question": "He asked ____ (그녀에게) a question.",
+      "answer": "her",
+      "explanation": "동사 ask 뒤에 간접목적어 her가 옵니다. (해석: 그는 그녀에게 질문을 했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "He gave a book ____ me.",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "4형식 동사 give를 3형식으로 바꿀 때, 간접목적어(me) 앞에 전치사 to를 씁니다. (해석: 그는 나에게 책을 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She sent a letter ____ him.",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "about"
+      ],
+      "answer": 0,
+      "explanation": "send를 3형식으로 바꿀 때는 방향을 나타내는 전치사 to를 씁니다. (해석: 그녀는 그에게 편지를 보냈다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I will show the picture ____ you.",
+      "choices": [
+        "for",
+        "of",
+        "to",
+        "in"
+      ],
+      "answer": 2,
+      "explanation": "show는 3형식으로 전환할 때 전치사 to를 필요로 합니다. (해석: 나는 너에게 그 사진을 보여줄 것이다.)"
+    },
+    {
+      "type": "choice",
+      "question": "They teach English ____ us.",
+      "choices": [
+        "for",
+        "to",
+        "of",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "teach를 3형식으로 전환할 때 전치사 to를 사용합니다. (해석: 그들은 우리에게 영어를 가르친다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Please tell the truth ____ me.",
+      "choices": [
+        "to",
+        "of",
+        "for",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "tell은 3형식으로 바꿀 때 전치사 to를 사용합니다. (해석: 나에게 진실을 말해 주세요.)"
+    },
+    {
+      "type": "blank",
+      "question": "He lent some money ____ me.",
+      "answer": "to",
+      "explanation": "lend(빌려주다)는 3형식으로 바꿀 때 전치사 to를 씁니다. (해석: 그는 나에게 약간의 돈을 빌려주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "Can you bring a glass of water ____ me?",
+      "answer": "to",
+      "explanation": "bring(가져오다)은 방향성이 강조되므로 전치사 to를 씁니다. (해석: 나에게 물 한 잔 가져다줄 수 있니?)"
+    },
+    {
+      "type": "blank",
+      "question": "I handed the document ____ him.",
+      "answer": "to",
+      "explanation": "hand(건네주다)는 물건의 이동 방향을 나타내므로 전치사 to를 씁니다. (해석: 나는 그에게 서류를 건네주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She offered a job ____ me.",
+      "answer": "to",
+      "explanation": "offer(제공하다)는 3형식 전환 시 전치사 to를 씁니다. (해석: 그녀는 나에게 일자리를 제안했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "We paid fifty dollars ____ them.",
+      "answer": "to",
+      "explanation": "pay(지불하다)는 돈이 건너가는 방향을 나타내므로 전치사 to를 씁니다. (해석: 우리는 그들에게 50달러를 지불했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I will make some coffee ____ you.",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "make(만들어주다)는 정성과 노력이 들어가는 동사이므로 3형식 전환 시 전치사 for를 씁니다. (해석: 내가 너에게 커피를 좀 만들어 줄게.)"
+    },
+    {
+      "type": "choice",
+      "question": "He bought a toy ____ his son.",
+      "choices": [
+        "for",
+        "to",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "buy(사주다)는 누군가를 위해 노력해서 행동하는 의미이므로 전치사 for를 씁니다. (해석: 그는 아들에게 장난감을 사주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She got a ticket ____ me.",
+      "choices": [
+        "to",
+        "of",
+        "with",
+        "for"
+      ],
+      "answer": 3,
+      "explanation": "get(구해주다)은 정성을 들이는 동사이므로 전치사 for와 함께 씁니다. (해석: 그녀는 나에게 표를 구해 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "My mother cooked dinner ____ us.",
+      "choices": [
+        "for",
+        "to",
+        "of",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "cook(요리해주다)은 누군가를 위해 노력을 들이는 동사이므로 for를 씁니다. (해석: 나의 어머니는 우리에게 저녁을 요리해 주셨다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I found a good job ____ him.",
+      "choices": [
+        "of",
+        "to",
+        "for",
+        "on"
+      ],
+      "answer": 2,
+      "explanation": "find(찾아주다)는 전치사 for를 취합니다. (해석: 나는 그에게 좋은 직장을 찾아 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Can you choose a nice tie ____ me?",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "choose(골라주다)도 시간과 노력이 들어가는 동사이므로 for를 씁니다. (해석: 나에게 멋진 넥타이를 골라줄 수 있니?)"
+    },
+    {
+      "type": "blank",
+      "question": "She ordered a new dress ____ herself.",
+      "answer": "for",
+      "explanation": "order(주문해주다)는 누군가를 위하는 의미가 강하므로 전치사 for를 씁니다. (해석: 그녀는 자신에게 새 드레스를 주문해 주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He built a house ____ his family.",
+      "answer": "for",
+      "explanation": "build(지어주다)는 엄청난 노력이 들어가므로 3형식 전환 시 for를 씁니다. (해석: 그는 가족에게 집을 지어주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "They found the lost dog ____ the boy.",
+      "answer": "for",
+      "explanation": "find(찾아주다)는 전치사 for를 씁니다. (해석: 그들은 소년에게 길 잃은 개를 찾아 주었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I made a doll ____ my little sister.",
+      "answer": "for",
+      "explanation": "make(만들어주다)는 전치사 for를 씁니다. (해석: 나는 여동생에게 인형을 만들어 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Can I ask a favor ____ you?",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "with"
+      ],
+      "answer": 2,
+      "explanation": "ask(부탁하다)는 3형식으로 바꿀 때 유일하게 전치사 of를 쓰는 대표적인 동사입니다. (해석: 너에게 부탁 하나 해도 될까?)"
+    },
+    {
+      "type": "choice",
+      "question": "He asked a question ____ me.",
+      "choices": [
+        "to",
+        "of",
+        "for",
+        "about"
+      ],
+      "answer": 1,
+      "explanation": "ask가 질문하다의 의미일 때도 3형식 전환 시 of를 씁니다. (해석: 그는 나에게 질문을 했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The reporter asked a difficult question ____ the actor.",
+      "choices": [
+        "for",
+        "to",
+        "of",
+        "on"
+      ],
+      "answer": 2,
+      "explanation": "ask는 3형식 전환 시 of를 씁니다. (해석: 그 기자는 배우에게 어려운 질문을 했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "May I ask a favor ____ you?",
+      "answer": "of",
+      "explanation": "ask 동사 뒤에 사람(you)이 목적어(a favor) 뒤로 가면 전치사 of를 씁니다. (해석: 부탁 하나 해도 될까요?)"
+    },
+    {
+      "type": "blank",
+      "question": "She asked a personal question ____ him.",
+      "answer": "of",
+      "explanation": "ask 동사이므로 전치사 of를 씁니다. (해석: 그녀는 그에게 개인적인 질문을 했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "My father promised a new bike ____ me.",
+      "answer": "to",
+      "explanation": "promise(약속하다)는 3형식 전환 시 전치사 to를 씁니다. (해석: 아버지는 나에게 새 자전거를 약속하셨다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 어법상 올바른 문장을 고르시오.",
+      "choices": [
+        "He made me a cake.",
+        "He made a cake to me.",
+        "He bought me to a cake.",
+        "He gave for me a cake."
+      ],
+      "answer": 0,
+      "explanation": "'He made me a cake'는 4형식으로 어법상 옳습니다. 1번은 to 대신 for, 2, 3번은 전치사 사용이 모두 틀렸습니다. (해석: 그는 나에게 케이크를 만들어 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 어법상 틀린 문장을 고르시오.",
+      "choices": [
+        "She sent him an email.",
+        "She sent an email to him.",
+        "She bought him a present.",
+        "She bought a present to him."
+      ],
+      "answer": 3,
+      "explanation": "buy는 3형식으로 전환할 때 전치사 for를 쓰므로, 'She bought a present for him'이라고 해야 맞습니다. (해석: 그녀는 그에게 선물을 사주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 알맞은 전치사는? \"She told a funny story ____ the children.\"",
+      "choices": [
+        "for",
+        "to",
+        "of",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "tell은 3형식 전환 시 전치사 to를 씁니다. (해석: 그녀는 아이들에게 재미있는 이야기를 들려주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 알맞은 전치사는? \"We bought some flowers ____ our teacher.\"",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "buy는 누군가를 위해 노력해서 사는 것이므로 전치사 for를 씁니다. (해석: 우리는 선생님께 약간의 꽃을 사다 드렸다.)"
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 알맞은 전치사는? \"He asked a huge favor ____ his friend.\"",
+      "choices": [
+        "of",
+        "to",
+        "for",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "ask는 3형식으로 바꿀 때 전치사 of를 씁니다. (해석: 그는 친구에게 큰 부탁을 했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "주어진 4형식 문장을 3형식으로 바르게 전환한 것은? \"He gave me the book.\"",
+      "choices": [
+        "He gave the book to me.",
+        "He gave the book for me.",
+        "He gave the book of me.",
+        "He gave to me the book."
+      ],
+      "answer": 0,
+      "explanation": "give는 3형식으로 바꿀 때 사물 목적어(the book) 뒤에 'to 사람(me)' 형태를 씁니다. (해석: 그는 나에게 그 책을 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "주어진 4형식 문장을 3형식으로 바르게 전환한 것은? \"She made him a sandwich.\"",
+      "choices": [
+        "She made a sandwich to him.",
+        "She made a sandwich of him.",
+        "She made a sandwich for him.",
+        "She made for him a sandwich."
+      ],
+      "answer": 2,
+      "explanation": "make는 정성을 들여 만드는 것이므로 3형식 전환 시 'for 사람(him)'을 씁니다. (해석: 그녀는 그에게 샌드위치를 만들어 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 어법상 어색한 문장은?",
+      "choices": [
+        "I asked a question of her.",
+        "I taught English to them.",
+        "I showed the picture for him.",
+        "I cooked pasta for my family."
+      ],
+      "answer": 2,
+      "explanation": "show는 3형식 전환 시 to를 쓰는 동사이므로 'to him'이 되어야 합니다. (해석: 나는 그에게 그 사진을 보여주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 밑줄 친 동사가 4형식으로 쓰인 것은?",
+      "choices": [
+        "He became a teacher.",
+        "She likes apples.",
+        "I gave her a ring.",
+        "They made the room clean."
+      ],
+      "answer": 2,
+      "explanation": "'I gave her(간접목적어) a ring(직접목적어)'이 4형식입니다. became은 2형식, likes는 3형식, made the room clean은 5형식입니다. (해석: 나는 그녀에게 반지를 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 4형식을 3형식으로 바꿀 때 전치사 for를 쓰는 동사로만 짝지어진 것은?",
+      "choices": [
+        "give, send, show",
+        "make, buy, cook",
+        "ask, require, inquire",
+        "teach, tell, write"
+      ],
+      "answer": 1,
+      "explanation": "make, buy, cook은 모두 누군가를 위해 시간과 노력을 들이는 의미가 강해 전치사 for를 씁니다. give류는 to, ask류는 of를 씁니다."
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 전치사가 나머지 셋과 다른 하나는?",
+      "choices": [
+        "give a book ____ him",
+        "send a letter ____ her",
+        "show the map ____ us",
+        "make a doll ____ me"
+      ],
+      "answer": 3,
+      "explanation": "give, send, show는 모두 to를 쓰지만, make는 for를 씁니다. (해석: 나에게 인형을 만들어 주다)"
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 전치사가 나머지 셋과 다른 하나는?",
+      "choices": [
+        "buy a toy ____ my son",
+        "cook dinner ____ them",
+        "get a ticket ____ you",
+        "ask a favor ____ him"
+      ],
+      "answer": 3,
+      "explanation": "buy, cook, get은 모두 for를 쓰지만, ask는 of를 씁니다. (해석: 그에게 부탁을 하다)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 우리말을 영어로 바르게 영작한 것은? \"나는 그녀에게 편지를 썼다.\"",
+      "choices": [
+        "I wrote a letter her.",
+        "I wrote to her a letter.",
+        "I wrote her a letter.",
+        "I wrote a letter for her."
+      ],
+      "answer": 2,
+      "explanation": "4형식 어순은 '주어 + 동사 + 간접목적어(her) + 직접목적어(a letter)'입니다. 3형식으로 쓰려면 'wrote a letter to her'가 되어야 합니다."
+    },
+    {
+      "type": "choice",
+      "question": "다음 문장의 빈칸에 들어갈 수 없는 동사는? \"She ____ me a story.\"",
+      "choices": [
+        "told",
+        "read",
+        "showed",
+        "explained"
+      ],
+      "answer": 3,
+      "explanation": "explain은 4형식(수여동사)으로 쓸 수 없고 3형식으로만 쓰는 대표적인 동사입니다. 'explained the story to me' 형태로 써야 합니다. (해석: 그녀는 나에게 이야기를 들려주었다.)"
+    }
+  ]
+}

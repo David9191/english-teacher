@@ -40,26 +40,61 @@ function useStoreValue(selector) {
   return selector()
 }
 
-// ---- 학습 콘텐츠 (파일 + 붙여넣기 병합) ----
+// ---- 학습 콘텐츠 (파일이 원본, 저장 직후엔 메모리에 즉시 반영) ----
+// 저장은 /api/content/:id 로 src/content/unit-XX.json 파일에 기록됨.
+// runtime: 저장 직후 파일 HMR 반영 전까지 보여줄 임시 값. legacy: 예전 localStorage 값(이전 전까지).
+const runtime = {}
 export function getContent(id) {
-  const pasted = read(CONTENT_KEY, {})[id] ?? {}
-  return { ...(fileContent[id] ?? {}), ...pasted }
+  const legacy = read(CONTENT_KEY, {})[id] ?? {}
+  return { ...(fileContent[id] ?? {}), ...legacy, ...(runtime[id] ?? {}) }
 }
 export function useContent(id) {
   return useStoreValue(() => getContent(id))
 }
-export function saveContent(id, partial) {
+async function callContentApi(id, method, body) {
+  const res = await fetch(`/api/content/${id}`, {
+    method,
+    headers: { 'Content-Type': 'application/json' },
+    body: body ? JSON.stringify(body) : undefined,
+  })
+  const data = await res.json().catch(() => ({}))
+  if (!res.ok) throw new Error(data.error?.message || `파일 저장 실패 (${res.status})`)
+  return data
+}
+export async function saveContent(id, partial) {
+  const data = await callContentApi(id, 'POST', partial)
+  runtime[id] = { ...(runtime[id] ?? {}), ...partial }
+  emit()
+  return data
+}
+export async function clearContent(id) {
+  await callContentApi(id, 'DELETE')
   const all = read(CONTENT_KEY, {})
-  all[id] = { ...(all[id] ?? {}), ...partial }
-  localStorage.setItem(CONTENT_KEY, JSON.stringify(all))
+  if (all[id]) {
+    delete all[id]
+    localStorage.setItem(CONTENT_KEY, JSON.stringify(all))
+  }
+  delete fileContent[id]
+  runtime[id] = { sections: undefined, examples: undefined, questions: undefined }
   emit()
 }
-export function clearContent(id) {
+
+// 예전에 localStorage에 저장된 콘텐츠를 파일로 한 번 옮김
+async function migrateLegacyContent() {
   const all = read(CONTENT_KEY, {})
-  delete all[id]
-  localStorage.setItem(CONTENT_KEY, JSON.stringify(all))
-  emit()
+  for (const id of Object.keys(all)) {
+    try {
+      await saveContent(id, all[id])
+      delete all[id]
+    } catch (e) {
+      console.warn(`UNIT ${id} 파일 이전 실패:`, e.message)
+    }
+  }
+  if (Object.keys(all).length) localStorage.setItem(CONTENT_KEY, JSON.stringify(all))
+  else localStorage.removeItem(CONTENT_KEY)
 }
+if (typeof window !== 'undefined') migrateLegacyContent()
+
 export function contentStatus(id) {
   const c = getContent(id)
   return {

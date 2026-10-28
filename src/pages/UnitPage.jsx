@@ -326,16 +326,16 @@ function AddContent({ unit, content }) {
   const [text, setText] = useState('')
   const [msg, setMsg] = useState(null)
 
-  const save = () => {
+  const save = async () => {
     try {
       const parsed = parseContentJson(text)
-      saveContent(unit.id, parsed)
+      const { file } = await saveContent(unit.id, parsed)
       const parts = [
         parsed.sections && `설명 ${parsed.sections.length}개`,
         parsed.examples && `예문 ${parsed.examples.length}개`,
         parsed.questions && `문제 ${parsed.questions.length}개`,
       ].filter(Boolean)
-      setMsg({ ok: true, text: `저장 완료: ${parts.join(', ')}` })
+      setMsg({ ok: true, text: `${file} 에 저장 완료: ${parts.join(', ')}` })
       setText('')
     } catch (e) {
       setMsg({ ok: false, text: e.message })
@@ -365,7 +365,15 @@ function AddContent({ unit, content }) {
           <button className="btn primary" id="save-json" disabled={!text.trim()} onClick={save}>저장</button>
           <button
             className="btn"
-            onClick={() => { if (confirm('이 UNIT에 붙여넣어 저장한 콘텐츠를 모두 지울까요?')) { clearContent(unit.id); setMsg(null) } }}
+            onClick={async () => {
+              if (!confirm('이 UNIT의 저장된 콘텐츠 파일을 삭제할까요?')) return
+              try {
+                await clearContent(unit.id)
+                setMsg(null)
+              } catch (e) {
+                setMsg({ ok: false, text: e.message })
+              }
+            }}
           >
             붙여넣은 콘텐츠 삭제
           </button>
@@ -373,7 +381,7 @@ function AddContent({ unit, content }) {
         {msg && <p className={msg.ok ? 'ok-text' : 'err-text'}>{msg.text}</p>}
         <p className="muted small">
           현재: 설명 {content.sections?.length ?? 0}개 · 예문 {content.examples?.length ?? 0}개 · 문제 {content.questions?.length ?? 0}개.
-          붙여넣은 데이터는 이 브라우저에 저장돼요. 영구 보관하려면 <code>src/content/unit-{String(unit.id).padStart(2, '0')}.json</code> 파일로 저장하세요.
+          저장하면 <code>src/content/unit-{String(unit.id).padStart(2, '0')}.json</code> 파일에 기록돼요.
         </p>
       </div>
     </div>

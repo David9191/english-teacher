@@ -1,0 +1,733 @@
+{
+  "sections": [
+    {
+      "heading": "5형식 문장의 구조와 목적격 보어",
+      "body": "5형식 문장은 **[주어(S) + 동사(V) + 목적어(O) + 목적격 보어(O.C)]**로 이루어집니다.\n\n- **목적격 보어(Objective Complement)란?**\n목적어만으로는 의미가 불완전할 때, 목적어의 신분, 상태, 동작 등을 보충 설명해 주는 말입니다.\n- **핵심 관계**: 목적어 = 목적격 보어 (O = O.C) 이거나, 목적어가 목적격 보어의 행동을 하는 '주술 관계(의미상 주어와 동사)'가 성립합니다.\n\n- **목적격 보어 자리에 올 수 있는 품사**\n1. **명사**: 목적어의 '신분, 직업, 이름'을 나타냅니다. (예: We call him **a hero**.)\n2. **형용사**: 목적어의 '상태, 성질'을 나타냅니다. (예: The news made me **happy**.)\n\n- **주의할 점!**\n우리말 해석이 '~하게'로 되더라도, 보어 자리에는 **절대 부사(adverb)를 쓸 수 없습니다**. (X: made me happily -> O: made me **happy**)"
+    },
+    {
+      "heading": "주요 5형식 동사와 보어의 형태",
+      "body": "5형식은 동사의 종류에 따라 목적격 보어 자리에 오는 형태가 달라집니다. 이것이 영문법 시험의 가장 중요한 출제 포인트입니다.\n\n- **1. 명사를 보어로 취하는 동사**\n목적어에게 이름을 지어주거나 직책으로 임명/선출할 때 씁니다.\n대표 동사: **call** (부르다), **name** (이름 짓다), **make** (만들다), **elect** (선출하다)\n\n- **2. 형용사를 보어로 취하는 동사**\n목적어의 상태를 나타냅니다. (부사 금지!)\n대표 동사: **make** (~하게 만들다), **keep** (~한 상태로 유지하다), **find** (~가 ~하다고 알게 되다/생각하다), **leave** (~한 상태로 내버려 두다), **consider** (~를 ~라고 여기다)\n\n- **3. to부정사를 보어로 취하는 동사**\n목적어에게 어떤 '미래의 행동'을 하라고 요구, 허락, 기대할 때 씁니다.\n대표 동사: **want, tell, ask, advise, allow, expect, order**\n(예: I want you **to study** hard.)\n\n- **4. 사역동사와 지각동사**\n- 사역동사(make, have, let)는 목적격 보어로 **동사원형**을 취합니다.\n- 지각동사(see, hear, feel)는 목적격 보어로 **동사원형**이나 **현재분사(-ing)**를 취합니다."
+    },
+    {
+      "heading": "동사와 문장 형식의 변화 (make 활용하기)",
+      "body": "하나의 동사가 항상 한 가지 형식으로만 쓰이는 것은 아닙니다. 문맥과 구조에 따라 다양하게 쓰일 수 있습니다.\n\n- **대표적인 다재다능 동사: make**\n- **3형식** (S+V+O): I made **a cake**. (나는 케이크를 만들었다.)\n- **4형식** (S+V+IO+DO): I made **him a cake**. (나는 그에게 케이크를 만들어 주었다. -> him ≠ a cake)\n- **5형식** (S+V+O+O.C): I made **him a star**. (나는 그를 스타로 만들었다. -> him = a star)\n\n- **해석 꿀팁**\n동사 뒤에 명사가 2개 연속으로 나올 때, 두 명사가 서로 다르면 4형식(~에게 ~을)이고, **서로 같으면 5형식(~를 ~로)**으로 파악하면 정확합니다."
+    }
+  ],
+  "summary": "주어, 동사, 목적어, 그리고 목적어를 보충 설명하는 목적격 보어로 이루어진 5형식 문장의 구조와 목적격 보어의 다양한 형태를 완벽히 이해합니다.",
+  "examples": [
+    {
+      "en": "We call him **a genius**.",
+      "ko": "우리는 그를 천재라고 부른다."
+    },
+    {
+      "en": "They named their dog **Max**.",
+      "ko": "그들은 그들의 개를 맥스라고 이름 지었다."
+    },
+    {
+      "en": "The people elected him **president**.",
+      "ko": "사람들은 그를 대통령으로 선출했다."
+    },
+    {
+      "en": "His effort made him **a great player**.",
+      "ko": "그의 노력이 그를 훌륭한 선수로 만들었다."
+    },
+    {
+      "en": "I consider her **my best friend**.",
+      "ko": "나는 그녀를 내 가장 친한 친구로 여긴다."
+    },
+    {
+      "en": "The board appointed Mr. Kim **manager**.",
+      "ko": "이사회는 김 씨를 매니저로 임명했다."
+    },
+    {
+      "en": "Everyone calls the cute baby **an angel**.",
+      "ko": "모두가 그 귀여운 아기를 천사라고 부른다."
+    },
+    {
+      "en": "They left the room **a mess**.",
+      "ko": "그들은 방을 엉망진창인 상태로 내버려 두었다."
+    },
+    {
+      "en": "The sweet music makes me **happy**.",
+      "ko": "그 감미로운 음악은 나를 행복하게 만든다."
+    },
+    {
+      "en": "Please keep the door **open**.",
+      "ko": "문을 열어 둔 채로 유지해 주세요."
+    },
+    {
+      "en": "I found the book **very interesting**.",
+      "ko": "나는 그 책이 매우 흥미롭다는 것을 알게 되었다."
+    },
+    {
+      "en": "Don't leave me **alone**.",
+      "ko": "나를 혼자 내버려 두지 마세요."
+    },
+    {
+      "en": "She dyed her hair **brown**.",
+      "ko": "그녀는 머리를 갈색으로 염색했다."
+    },
+    {
+      "en": "The shocking news kept us **awake** all night.",
+      "ko": "그 충격적인 소식이 우리를 밤새 깨어 있게 했다."
+    },
+    {
+      "en": "He considers the project **impossible**.",
+      "ko": "그는 그 프로젝트가 불가능하다고 여긴다."
+    },
+    {
+      "en": "We painted the wall **blue**.",
+      "ko": "우리는 벽을 파란색으로 칠했다."
+    },
+    {
+      "en": "You must keep your room **clean**.",
+      "ko": "너는 네 방을 깨끗하게 유지해야 한다."
+    },
+    {
+      "en": "I found the math exam **difficult**.",
+      "ko": "나는 그 수학 시험이 어렵다고 생각했다."
+    },
+    {
+      "en": "The long speech made everybody **bored**.",
+      "ko": "긴 연설이 모두를 지루하게 만들었다."
+    },
+    {
+      "en": "She proved herself **innocent**.",
+      "ko": "그녀는 자신이 결백함을 증명했다."
+    },
+    {
+      "en": "I want you **to help** me with this project.",
+      "ko": "나는 네가 이 프로젝트를 도와주기를 원한다."
+    },
+    {
+      "en": "She told him **to wait** outside the building.",
+      "ko": "그녀는 그에게 건물 밖에서 기다리라고 말했다."
+    },
+    {
+      "en": "He asked me **to open** the window.",
+      "ko": "그는 나에게 창문을 열어달라고 부탁했다."
+    },
+    {
+      "en": "The doctor advised her **to exercise** more.",
+      "ko": "의사는 그녀에게 운동을 더 하라고 조언했다."
+    },
+    {
+      "en": "My parents allow me **to play** games on weekends.",
+      "ko": "부모님은 내가 주말에 게임하는 것을 허락하신다."
+    },
+    {
+      "en": "We expect him **to win** the gold medal.",
+      "ko": "우리는 그가 금메달을 딸 것이라고 기대한다."
+    },
+    {
+      "en": "The teacher ordered the students **to be** quiet.",
+      "ko": "선생님은 학생들에게 조용히 하라고 명령했다."
+    },
+    {
+      "en": "I persuaded him **to join** our club.",
+      "ko": "나는 그가 우리 동아리에 가입하도록 설득했다."
+    },
+    {
+      "en": "The heavy rain caused the river **to rise**.",
+      "ko": "폭우는 강물이 불어나게 만들었다."
+    },
+    {
+      "en": "She encouraged me **to try** again.",
+      "ko": "그녀는 내가 다시 시도하도록 격려했다."
+    },
+    {
+      "en": "They forced him **to sign** the paper.",
+      "ko": "그들은 그가 서류에 서명하도록 강요했다."
+    },
+    {
+      "en": "He warned us not **to touch** the dangerous machine.",
+      "ko": "그는 우리에게 그 위험한 기계를 만지지 말라고 경고했다."
+    },
+    {
+      "en": "I invited her **to come** to my birthday party.",
+      "ko": "나는 그녀에게 내 생일 파티에 오라고 초대했다."
+    },
+    {
+      "en": "My mom made me **clean** my messy room.",
+      "ko": "엄마는 내가 지저분한 내 방을 청소하게 하셨다."
+    },
+    {
+      "en": "He had the mechanic **fix** his broken car.",
+      "ko": "그는 정비사에게 그의 고장 난 차를 고치게 했다."
+    },
+    {
+      "en": "Please let me **introduce** myself.",
+      "ko": "제 자신을 소개하게 해 주세요."
+    },
+    {
+      "en": "I saw him **cross** the street.",
+      "ko": "나는 그가 길을 건너는 것을 보았다."
+    },
+    {
+      "en": "She heard someone **singing** a beautiful song.",
+      "ko": "그녀는 누군가 아름다운 노래를 부르고 있는 것을 들었다."
+    },
+    {
+      "en": "I felt the tall building **shake** slightly.",
+      "ko": "나는 높은 건물이 약간 흔들리는 것을 느꼈다."
+    },
+    {
+      "en": "We watched the kids **playing** happily in the park.",
+      "ko": "우리는 아이들이 공원에서 행복하게 놀고 있는 것을 지켜보았다."
+    },
+    {
+      "en": "Don't let the dog **bite** the guests.",
+      "ko": "개가 손님들을 물지 않게 하라."
+    },
+    {
+      "en": "She felt her heart **beating** extremely fast.",
+      "ko": "그녀는 그녀의 심장이 엄청나게 빨리 뛰고 있는 것을 느꼈다."
+    },
+    {
+      "en": "I helped the old lady **cross** the street.",
+      "ko": "나는 할머니가 길을 건너는 것을 도왔다."
+    },
+    {
+      "en": "He got me **to wash** his car yesterday.",
+      "ko": "그는 어제 내가 자기 차를 세차하게 시켰다. (get은 to부정사를 취함)"
+    },
+    {
+      "en": "I noticed a strange man **following** me.",
+      "ko": "나는 이상한 남자가 나를 따라오고 있는 것을 알아챘다."
+    },
+    {
+      "en": "They found the lost boy **crying** alone in the mall.",
+      "ko": "그들은 길 잃은 소년이 쇼핑몰에서 혼자 울고 있는 것을 발견했다."
+    },
+    {
+      "en": "The strong coffee kept me **wide awake** all night.",
+      "ko": "강한 커피가 나를 밤새 완전히 깨어 있게 유지했다."
+    },
+    {
+      "en": "He made it **a rule** to wake up early every day.",
+      "ko": "그는 매일 일찍 일어나는 것을 규칙으로 삼았다. (가목적어 it)"
+    },
+    {
+      "en": "I consider it **important** to keep promises.",
+      "ko": "나는 약속을 지키는 것이 중요하다고 생각한다."
+    },
+    {
+      "en": "Her outstanding performance made her **the most famous actress** in the country.",
+      "ko": "그녀의 뛰어난 연기가 그녀를 그 나라에서 가장 유명한 여배우로 만들었다."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "question": "The news made me ____.",
+      "choices": [
+        "happy",
+        "happily",
+        "happiness",
+        "a happy"
+      ],
+      "answer": 0,
+      "explanation": "make가 5형식으로 쓰일 때 목적격 보어 자리에는 부사가 아닌 형용사가 와야 합니다. (해석: 그 소식은 나를 행복하게 만들었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "We call him ____.",
+      "choices": [
+        "a hero",
+        "heroically",
+        "to a hero",
+        "for a hero"
+      ],
+      "answer": 0,
+      "explanation": "call은 목적격 보어로 명사를 취하여 '~를 ~라고 부르다'라는 의미를 만듭니다. (해석: 우리는 그를 영웅이라고 부른다.)"
+    },
+    {
+      "type": "blank",
+      "question": "Please keep the window ____ (열린).",
+      "answer": "open",
+      "explanation": "keep은 목적어의 상태를 유지하는 5형식 동사로 형용사 보어를 취합니다. (해석: 창문을 열어 둔 채로 유지해 주세요.)"
+    },
+    {
+      "type": "choice",
+      "question": "They named their baby ____.",
+      "choices": [
+        "as Lily",
+        "Lily",
+        "to Lily",
+        "for Lily"
+      ],
+      "answer": 1,
+      "explanation": "name은 '~를 ~라고 이름 짓다'라는 뜻의 5형식 동사로 전치사 없이 목적어 뒤에 명사 보어를 바로 취합니다. (해석: 그들은 아기의 이름을 릴리라고 지었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I found the movie very ____ (지루한).",
+      "answer": "boring",
+      "explanation": "find는 '~가 ~하다고 생각하다(알게 되다)'라는 5형식 동사로 형용사(현재분사 포함) 보어를 취합니다. (해석: 나는 그 영화가 매우 지루하다고 생각했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The people elected him ____.",
+      "choices": [
+        "to mayor",
+        "for mayor",
+        "mayor",
+        "with mayor"
+      ],
+      "answer": 2,
+      "explanation": "elect는 '~를 ~로 선출하다'라는 뜻으로 목적어 뒤에 직책을 나타내는 명사 보어가 옵니다. (해석: 사람들은 그를 시장으로 선출했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Please leave me ____.",
+      "choices": [
+        "alone",
+        "lonely",
+        "alonely",
+        "lone"
+      ],
+      "answer": 0,
+      "explanation": "leave는 '~를 ~상태로 내버려 두다'라는 뜻으로 형용사 보어를 취합니다. alone(혼자인)이 적절합니다. (해석: 나를 혼자 내버려 두세요.)"
+    },
+    {
+      "type": "choice",
+      "question": "She painted the wall ____.",
+      "choices": [
+        "white",
+        "whitely",
+        "whiteness",
+        "a white"
+      ],
+      "answer": 0,
+      "explanation": "동사 paint는 목적어의 칠해진 상태를 나타내는 형용사를 목적격 보어로 취합니다. 부사(whitely)는 안 됩니다. (해석: 그녀는 벽을 하얗게 칠했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "We consider him an ____ (전문가).",
+      "answer": "expert",
+      "explanation": "consider는 '~를 ~라고 여기다'라는 뜻으로 명사를 목적격 보어로 취할 수 있습니다. (해석: 우리는 그를 전문가라고 여긴다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I want you ____ here.",
+      "choices": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "answer": 1,
+      "explanation": "want는 목적어가 미래에 하기를 바라는 행동을 나타낼 때 to부정사를 목적격 보어로 취합니다. (해석: 나는 네가 여기에 머무르기를 원한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "He told me ____ the window.",
+      "choices": [
+        "open",
+        "opening",
+        "to open",
+        "opened"
+      ],
+      "answer": 2,
+      "explanation": "tell은 목적어에게 어떤 행동을 하라고 말할 때 to부정사를 목적격 보어로 취합니다. (해석: 그는 나에게 창문을 열라고 말했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She asked him ____ (돕다) her.",
+      "answer": "to help",
+      "explanation": "ask가 '부탁하다'의 뜻으로 5형식에 쓰일 때는 목적격 보어로 to부정사가 옵니다. (해석: 그녀는 그에게 자신을 도와달라고 부탁했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The doctor advised him ____ smoking.",
+      "choices": [
+        "stop",
+        "stopping",
+        "to stop",
+        "stopped"
+      ],
+      "answer": 2,
+      "explanation": "advise(조언하다)는 목적격 보어로 to부정사를 취하는 대표적인 동사입니다. (해석: 의사는 그에게 담배를 끊으라고 조언했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "My mom doesn't allow me ____ games.",
+      "choices": [
+        "play",
+        "playing",
+        "to play",
+        "played"
+      ],
+      "answer": 2,
+      "explanation": "allow(허락하다)는 목적격 보어로 to부정사를 취합니다. (해석: 엄마는 내가 게임하는 것을 허락하지 않으신다.)"
+    },
+    {
+      "type": "blank",
+      "question": "We expect her ____ (이기다) the race.",
+      "answer": "to win",
+      "explanation": "expect(기대하다)는 목적어가 미래에 할 행동을 기대하므로 to부정사를 목적격 보어로 취합니다. (해석: 우리는 그녀가 그 경주에서 이길 것이라고 기대한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The officer ordered the soldiers ____.",
+      "choices": [
+        "fire",
+        "firing",
+        "to fire",
+        "fired"
+      ],
+      "answer": 2,
+      "explanation": "order(명령하다)는 목적격 보어로 to부정사를 취합니다. (해석: 장교는 군인들에게 사격하라고 명령했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "My teacher encouraged me ____ harder.",
+      "choices": [
+        "study",
+        "studying",
+        "to study",
+        "studied"
+      ],
+      "answer": 2,
+      "explanation": "encourage(격려하다)는 목적격 보어로 to부정사를 취하는 동사입니다. (해석: 선생님은 내가 더 열심히 공부하도록 격려하셨다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The rain forced us ____ indoors.",
+      "choices": [
+        "stay",
+        "staying",
+        "to stay",
+        "stayed"
+      ],
+      "answer": 2,
+      "explanation": "force(강요하다)는 목적격 보어로 to부정사를 취합니다. (해석: 비 때문에 우리는 억지로 실내에 머물러야 했다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He persuaded me ____ (가입하다) the club.",
+      "answer": "to join",
+      "explanation": "persuade(설득하다)는 목적격 보어로 to부정사를 씁니다. (해석: 그는 내가 동아리에 가입하도록 설득했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Let me ____ myself.",
+      "choices": [
+        "introduce",
+        "to introduce",
+        "introducing",
+        "introduced"
+      ],
+      "answer": 0,
+      "explanation": "let은 사역동사이므로 목적격 보어 자리에 동사원형이 옵니다. (해석: 제 자신을 소개하게 해 주세요.)"
+    },
+    {
+      "type": "choice",
+      "question": "The sad movie made me ____.",
+      "choices": [
+        "cry",
+        "to cry",
+        "crying",
+        "cried"
+      ],
+      "answer": 0,
+      "explanation": "make가 '~하게 시키다(만들다)'라는 사역동사로 쓰이면 목적격 보어로 동사원형을 취합니다. (해석: 그 슬픈 영화는 나를 울게 만들었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I had my brother ____ (청소하다) my room.",
+      "answer": "clean",
+      "explanation": "have가 '~하게 시키다'라는 사역동사로 쓰이면 목적격 보어로 동사원형이 옵니다. (해석: 나는 남동생에게 내 방을 청소하게 시켰다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I saw the thief ____ away.",
+      "choices": [
+        "run",
+        "to run",
+        "runs",
+        "ran"
+      ],
+      "answer": 0,
+      "explanation": "see는 지각동사이므로 목적격 보어로 동사원형(또는 현재분사)이 올 수 있습니다. to부정사는 불가능합니다. (해석: 나는 도둑이 도망가는 것을 보았다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She heard someone ____ the piano.",
+      "choices": [
+        "to play",
+        "played",
+        "playing",
+        "plays"
+      ],
+      "answer": 2,
+      "explanation": "hear는 지각동사로 목적격 보어 자리에 동사원형이나 현재분사(-ing)를 취합니다. (해석: 그녀는 누군가 피아노 치고 있는 것을 들었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I felt something ____ (기어가다) on my leg.",
+      "answer": "crawl",
+      "answers": [
+        "crawl",
+        "crawling"
+      ],
+      "explanation": "feel은 지각동사이므로 목적격 보어로 동사원형(crawl)이나 현재분사(crawling)가 모두 가능합니다. (해석: 나는 무언가가 내 다리 위로 기어가는 것을 느꼈다.)"
+    },
+    {
+      "type": "choice",
+      "question": "We watched the kids ____ soccer.",
+      "choices": [
+        "to play",
+        "play",
+        "played",
+        "plays"
+      ],
+      "answer": 1,
+      "explanation": "watch는 지각동사이므로 목적격 보어 자리에 동사원형(또는 현재분사)이 옵니다. (해석: 우리는 아이들이 축구하는 것을 지켜보았다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I will help you ____ your homework.",
+      "choices": [
+        "doing",
+        "done",
+        "do",
+        "did"
+      ],
+      "answer": 2,
+      "explanation": "help는 목적격 보어로 동사원형이나 to부정사를 모두 취할 수 있는 동사입니다(준사역동사). (해석: 네가 숙제하는 것을 도와줄게.)"
+    },
+    {
+      "type": "choice",
+      "question": "I found the problem ____.",
+      "choices": [
+        "difficultly",
+        "difficulty",
+        "difficult",
+        "a difficult"
+      ],
+      "answer": 2,
+      "explanation": "find가 5형식으로 쓰일 때 목적격 보어 자리에 부사가 아닌 형용사가 와야 합니다. (해석: 나는 그 문제가 어렵다는 것을 알게 되었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "The joke made everyone ____ (웃다).",
+      "answer": "laugh",
+      "explanation": "사역동사 make의 목적격 보어로는 동사원형이 옵니다. (해석: 그 농담은 모두를 웃게 만들었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "You should keep your teeth ____.",
+      "choices": [
+        "cleanly",
+        "cleanness",
+        "clean",
+        "a clean"
+      ],
+      "answer": 2,
+      "explanation": "keep의 목적격 보어로는 형용사가 와야 합니다. (해석: 너는 치아를 깨끗하게 유지해야 한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The noise drove me ____.",
+      "choices": [
+        "crazy",
+        "crazily",
+        "craziness",
+        "a crazy"
+      ],
+      "answer": 0,
+      "explanation": "drive가 5형식으로 쓰여 '어떤 상태로 몰고 가다'라는 뜻일 때 형용사 보어를 취합니다. (해석: 그 소음이 나를 미치게 만들었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He left the door ____ (잠기지 않은).",
+      "answer": "unlocked",
+      "explanation": "leave 뒤에는 형용사 역할을 하는 분사가 올 수 있습니다. 문의 상태가 수동이므로 과거분사 unlocked가 맞습니다. (해석: 그는 문을 잠그지 않은 채로 내버려 두었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I will get my friend ____ my car.",
+      "choices": [
+        "wash",
+        "to wash",
+        "washing",
+        "washed"
+      ],
+      "answer": 1,
+      "explanation": "get이 '~하게 시키다'라는 뜻으로 쓰일 때는 사역의 의미를 가지지만, 문법적으로 목적격 보어 자리에 반드시 to부정사를 써야 합니다. (해석: 나는 친구에게 내 차를 세차하게 할 것이다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I want him ____ (끝내다) the work.",
+      "answer": "to finish",
+      "explanation": "want 동사는 목적격 보어로 to부정사를 취합니다. (해석: 나는 그가 그 일을 끝내기를 원한다.)"
+    },
+    {
+      "type": "blank",
+      "question": "They elected her ____ (회장).",
+      "answer": "president",
+      "explanation": "elect의 목적격 보어 자리에는 직책을 나타내는 명사가 전치사 없이 옵니다. (해석: 그들은 그녀를 회장으로 선출했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 어법상 틀린 문장을 고르시오.",
+      "choices": [
+        "The news made me happily.",
+        "I found the book easy.",
+        "We call him a genius.",
+        "Please leave me alone."
+      ],
+      "answer": 0,
+      "explanation": "목적격 보어 자리에는 부사가 올 수 없으므로 'made me happy'로 고쳐야 합니다."
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 어법상 올바른 문장을 고르시오.",
+      "choices": [
+        "I want him go.",
+        "She told me to wait.",
+        "He asked me open the door.",
+        "They allowed us entering."
+      ],
+      "answer": 1,
+      "explanation": "want, ask, allow는 모두 to부정사를 보어로 취해야 하며, told(tell의 과거) 역시 to부정사를 취하므로 'told me to wait'이 어법상 맞습니다."
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 들어갈 목적격 보어의 형태가 나머지 셋과 다른 하나는?",
+      "choices": [
+        "I want you ____.",
+        "He told me ____.",
+        "She let me ____.",
+        "They asked him ____."
+      ],
+      "answer": 2,
+      "explanation": "want, tell, ask는 목적격 보어로 to부정사를 취하지만, 사역동사 let은 동사원형을 취합니다."
+    },
+    {
+      "type": "blank",
+      "question": "The teacher had us ____ (쓰다) an essay.",
+      "answer": "write",
+      "explanation": "had는 사역동사이므로 목적격 보어 자리에 동사원형이 옵니다. (해석: 선생님은 우리에게 에세이를 쓰게 하셨다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I saw her ____ the street just now.",
+      "choices": [
+        "to cross",
+        "crossed",
+        "crossing",
+        "crosses"
+      ],
+      "answer": 2,
+      "explanation": "지각동사 saw의 목적격 보어로는 동사원형(cross)이나 현재분사(crossing)가 올 수 있습니다. 보기 중에는 crossing이 맞습니다. (해석: 나는 그녀가 방금 길을 건너고 있는 것을 보았다.)"
+    },
+    {
+      "type": "choice",
+      "question": "My parents won't let me ____ out late.",
+      "choices": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "answer": 0,
+      "explanation": "사역동사 let의 목적격 보어로는 동사원형이 옵니다. (해석: 부모님은 내가 늦게까지 밖에 머무는 것을 허락하지 않으실 것이다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She watched the birds ____ (날아가다) away.",
+      "answer": "fly",
+      "answers": [
+        "fly",
+        "flying"
+      ],
+      "explanation": "지각동사 watch의 목적격 보어로 동사원형이나 현재분사가 가능합니다. (해석: 그녀는 새들이 날아가는 것을 지켜보았다.)"
+    },
+    {
+      "type": "choice",
+      "question": "I can't get this machine ____.",
+      "choices": [
+        "work",
+        "to work",
+        "worked",
+        "works"
+      ],
+      "answer": 1,
+      "explanation": "get이 '~하게 하다'라는 5형식 동사로 쓰일 때 목적격 보어로 to부정사를 씁니다. (해석: 나는 이 기계가 작동하게 만들 수가 없다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She found it difficult ____ the book.",
+      "choices": [
+        "read",
+        "reading",
+        "to read",
+        "readed"
+      ],
+      "answer": 2,
+      "explanation": "가목적어 it이 쓰인 5형식 문장으로, 진짜 목적어 역할을 하는 진목적어는 to부정사로 씁니다. (해석: 그녀는 그 책을 읽는 것이 어렵다는 것을 알게 되었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "I consider it important ____ (지키다) promises.",
+      "answer": "to keep",
+      "explanation": "가목적어 it 구문에서 진목적어로 to부정사가 옵니다. (해석: 나는 약속을 지키는 것이 중요하다고 여긴다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 문장의 형식은? \"He made me a chair.\"",
+      "choices": [
+        "2형식",
+        "3형식",
+        "4형식",
+        "5형식"
+      ],
+      "answer": 2,
+      "explanation": "me(나)와 a chair(의자)가 서로 다른 대상(me ≠ a chair)이므로 '~에게 ~을 만들어 주다'라는 4형식입니다. (해석: 그는 나에게 의자를 만들어 주었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 문장의 형식은? \"He made me a star.\"",
+      "choices": [
+        "2형식",
+        "3형식",
+        "4형식",
+        "5형식"
+      ],
+      "answer": 3,
+      "explanation": "me(나)와 a star(스타)가 같은 대상(me = a star)이므로 '~를 ~로 만들다'라는 5형식입니다. (해석: 그는 나를 스타로 만들었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "다음 중 5형식 문장은?",
+      "choices": [
+        "She made him a cake.",
+        "I bought her a ring.",
+        "They named the cat Kitty.",
+        "He gave me a present."
+      ],
+      "answer": 2,
+      "explanation": "1, 2, 4번은 모두 '~에게 ~을 주다'라는 4형식(수여동사) 문장입니다. 3번은 '고양이=키티'의 목적어=목적격 보어 관계가 성립하는 5형식입니다."
+    },
+    {
+      "type": "blank",
+      "question": "Please have him ____ (전화하다) me back.",
+      "answer": "call",
+      "explanation": "사역동사 have의 목적격 보어로는 동사원형을 씁니다. (해석: 그가 저에게 다시 전화하게 해 주세요.)"
+    },
+    {
+      "type": "choice",
+      "question": "빈칸에 동사원형이 올 수 없는 동사는? \"He ____ me do it.\"",
+      "choices": [
+        "made",
+        "let",
+        "had",
+        "wanted"
+      ],
+      "answer": 3,
+      "explanation": "made, let, had는 모두 사역동사로 동사원형(do)을 보어로 취할 수 있지만, want는 to부정사(to do)를 취해야 합니다."
+    }
+  ]
+}

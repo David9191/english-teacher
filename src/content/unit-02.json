@@ -1,0 +1,725 @@
+{
+  "sections": [
+    {
+      "heading": "2형식 문장의 구조와 보어의 역할",
+      "body": "2형식 문장은 **[주어(S) + 동사(V) + 주격 보어(C)]**로 이루어집니다.\n\n- **주격 보어(Complement)란?**\n주어만으로는 의미가 완전하지 않아서, 주어의 신분, 상태, 성질 등을 보충 설명해 주는 말입니다.\n- 주어 = 주격 보어 (S = C)의 관계가 성립합니다.\n\n- **보어 자리에 올 수 있는 품사**\n1. **명사**: 주어의 '신분, 직업, 정체'를 나타냅니다. (예: He is **a teacher**.)\n2. **형용사**: 주어의 '상태, 성질'을 나타냅니다. (예: She is **smart**.)\n\n- **주의할 점!**\n우리말로는 '~하게'라고 해석되더라도 보어 자리에는 **절대 부사(adverb)를 쓸 수 없습니다**. 항상 형용사나 명사를 써야 합니다."
+    },
+    {
+      "heading": "주요 2형식 동사 1: 상태 유지와 상태 변화",
+      "body": "2형식에 쓰이는 주요 동사들은 주어의 상태가 유지되는지, 변하는지에 따라 나눌 수 있습니다.\n\n- **1. 상태 유지 동사 (~한 상태로 있다, ~이다)**\n주어의 상태가 변하지 않고 계속 유지됨을 나타냅니다.\n대표 동사: **be, keep, remain, stay, hold**\n예: He **remained silent**. (그는 계속 침묵을 지켰다.)\n\n- **2. 상태 변화 동사 (~이 되다, ~해지다)**\n주어의 상태가 다른 상태로 바뀌는 것을 나타냅니다.\n대표 동사: **become, get, grow, turn, go, come, run, fall**\n예: The leaves **turned red**. (나뭇잎들이 붉게 변했다.)\n\n- **헷갈리는 포인트**\ngo, come, run 등은 1형식에서는 '가다, 오다, 달리다'라는 뜻의 동작 동사이지만, 뒤에 형용사 보어가 오면 2형식 동사로 쓰여 '~하게 되다'라는 뜻의 상태 변화 동사로 바뀝니다. (예: go bad - 상하다, run dry - 마르다)"
+    },
+    {
+      "heading": "주요 2형식 동사 2: 감각 동사",
+      "body": "사람의 오감(시각, 청각, 후각, 미각, 촉각)을 통해 주어의 상태를 나타내는 동사들입니다.\n\n- **감각 동사의 종류**\n**look** (~하게 보이다), **sound** (~하게 들리다), **smell** (~한 냄새가 나다), **taste** (~한 맛이 나다), **feel** (~하게 느껴지다)\n\n- **핵심 문법 규칙 1: 감각 동사 + 형용사**\n우리말 해석상 '~하게'라고 해석되지만, 보어 자리이므로 **반드시 형용사**를 써야 합니다. 부사(-ly)는 절대 올 수 없습니다!\n(X) You look happily. -> (O) You **look happy**.\n\n- **핵심 문법 규칙 2: 감각 동사 + like + 명사**\n만약 보어 자리에 명사를 써서 '~처럼 보이다/들리다'라고 표현하고 싶다면, 반드시 전치사 **like(~처럼)**를 함께 써야 합니다.\n(X) It sounds a good idea. -> (O) It **sounds like a good idea**."
+    }
+  ],
+  "summary": "주어의 상태나 성질을 보충 설명하는 주격 보어가 필요한 2형식 문장의 구조와 주요 동사들을 완벽히 이해합니다.",
+  "examples": [
+    {
+      "en": "I **am a student**.",
+      "ko": "나는 학생이다."
+    },
+    {
+      "en": "He **is an engineer**.",
+      "ko": "그는 엔지니어이다."
+    },
+    {
+      "en": "They **are my best friends**.",
+      "ko": "그들은 나의 가장 친한 친구들이다."
+    },
+    {
+      "en": "Time **is money**.",
+      "ko": "시간은 돈이다."
+    },
+    {
+      "en": "Music **is her passion**.",
+      "ko": "음악은 그녀의 열정이다."
+    },
+    {
+      "en": "She **is very kind**.",
+      "ko": "그녀는 매우 친절하다."
+    },
+    {
+      "en": "The exam **was difficult**.",
+      "ko": "그 시험은 어려웠다."
+    },
+    {
+      "en": "His answer **was correct**.",
+      "ko": "그의 대답은 정확했다."
+    },
+    {
+      "en": "This book **is useful**.",
+      "ko": "이 책은 유용하다."
+    },
+    {
+      "en": "The weather **is beautiful** today.",
+      "ko": "오늘 날씨가 정말 좋다."
+    },
+    {
+      "en": "Please **keep quiet** in the library.",
+      "ko": "도서관에서는 조용히 해 주세요."
+    },
+    {
+      "en": "You must **stay calm**.",
+      "ko": "너는 침착함을 유지해야 한다."
+    },
+    {
+      "en": "The door **remained open**.",
+      "ko": "그 문은 열려 있었다."
+    },
+    {
+      "en": "The weather **stayed warm** all week.",
+      "ko": "날씨가 일주일 내내 따뜻했다."
+    },
+    {
+      "en": "She **kept silent** all day.",
+      "ko": "그녀는 하루 종일 침묵을 지켰다."
+    },
+    {
+      "en": "We **remain good friends**.",
+      "ko": "우리는 여전히 좋은 친구이다."
+    },
+    {
+      "en": "The problem **remains unsolved**.",
+      "ko": "그 문제는 아직 풀리지 않은 상태로 있다."
+    },
+    {
+      "en": "It is important to **stay healthy**.",
+      "ko": "건강을 유지하는 것은 중요하다."
+    },
+    {
+      "en": "He **became a successful doctor**.",
+      "ko": "그는 성공한 의사가 되었다."
+    },
+    {
+      "en": "The sky **grew dark**.",
+      "ko": "하늘이 어두워졌다."
+    },
+    {
+      "en": "My hands **got cold**.",
+      "ko": "내 손이 차가워졌다."
+    },
+    {
+      "en": "The leaves **turn yellow** in fall.",
+      "ko": "가을에는 나뭇잎들이 노랗게 변한다."
+    },
+    {
+      "en": "The milk **went bad**.",
+      "ko": "우유가 상했다."
+    },
+    {
+      "en": "My dream finally **came true**.",
+      "ko": "내 꿈이 마침내 이루어졌다."
+    },
+    {
+      "en": "The well **ran dry** last summer.",
+      "ko": "지난 여름에 그 우물은 말라버렸다."
+    },
+    {
+      "en": "She **fell asleep** quickly.",
+      "ko": "그녀는 빨리 잠들었다."
+    },
+    {
+      "en": "He **is getting angry**.",
+      "ko": "그는 화가 나고 있다."
+    },
+    {
+      "en": "The caterpillar **became a beautiful butterfly**.",
+      "ko": "애벌레는 아름다운 나비가 되었다."
+    },
+    {
+      "en": "The economic situation **is growing worse**.",
+      "ko": "경제 상황이 더 악화되고 있다."
+    },
+    {
+      "en": "Her face **turned pale** with fear.",
+      "ko": "그녀의 얼굴이 두려움으로 창백해졌다."
+    },
+    {
+      "en": "You **look tired**.",
+      "ko": "너 피곤해 보인다."
+    },
+    {
+      "en": "That **sounds great**.",
+      "ko": "그거 정말 좋게 들린다."
+    },
+    {
+      "en": "This pizza **tastes delicious**.",
+      "ko": "이 피자 맛이 아주 좋다."
+    },
+    {
+      "en": "The flowers **smell sweet**.",
+      "ko": "그 꽃들은 향기로운 냄새가 난다."
+    },
+    {
+      "en": "I **feel terrible** about the mistake.",
+      "ko": "나는 그 실수에 대해 기분이 최악이다."
+    },
+    {
+      "en": "She **looks beautiful** in that dress.",
+      "ko": "그녀는 저 드레스를 입으니 아름다워 보인다."
+    },
+    {
+      "en": "His voice **sounded angry** on the phone.",
+      "ko": "전화기 너머 그의 목소리는 화난 것처럼 들렸다."
+    },
+    {
+      "en": "The soup **tastes too salty**.",
+      "ko": "수프가 너무 짠 맛이 난다."
+    },
+    {
+      "en": "This blanket **feels incredibly soft**.",
+      "ko": "이 담요는 믿을 수 없을 정도로 부드럽게 느껴진다."
+    },
+    {
+      "en": "The garbage **smells really bad**.",
+      "ko": "쓰레기에서 정말 심한 냄새가 난다."
+    },
+    {
+      "en": "He **looks much healthier** after the long vacation.",
+      "ko": "긴 휴가 이후에 그는 훨씬 건강해 보인다."
+    },
+    {
+      "en": "It **sounds easy**, but it actually isn't.",
+      "ko": "그것은 쉽게 들리지만, 실제로는 그렇지 않다."
+    },
+    {
+      "en": "It **looks like rain**.",
+      "ko": "비가 올 것 같다."
+    },
+    {
+      "en": "You **look like an angel**.",
+      "ko": "너는 천사처럼 보인다."
+    },
+    {
+      "en": "That **sounds like a fantastic plan**.",
+      "ko": "그거 환상적인 계획처럼 들린다."
+    },
+    {
+      "en": "This strange fruit **tastes like an apple**.",
+      "ko": "이 이상한 과일은 사과 같은 맛이 난다."
+    },
+    {
+      "en": "The fabric **feels like smooth silk**.",
+      "ko": "그 천은 부드러운 실크처럼 느껴진다."
+    },
+    {
+      "en": "The new perfume **smells like fresh strawberries**.",
+      "ko": "새 향수는 신선한 딸기 같은 냄새가 난다."
+    },
+    {
+      "en": "The new system **proved highly effective**.",
+      "ko": "새로운 시스템은 매우 효과적인 것으로 판명되었다."
+    },
+    {
+      "en": "Despite all the difficulties, she **remained a dedicated teacher**.",
+      "ko": "온갖 어려움에도 불구하고, 그녀는 여전히 헌신적인 교사였다."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "question": "The boy is ____.",
+      "choices": [
+        "smartly",
+        "smart",
+        "smartness",
+        "a smart"
+      ],
+      "answer": 1,
+      "explanation": "be동사 뒤에는 주격 보어로 형용사나 명사가 와야 합니다. 부사(smartly)는 보어가 될 수 없습니다. (해석: 그 소년은 똑똑하다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She looks ____.",
+      "choices": [
+        "happily",
+        "happiness",
+        "happy",
+        "happyly"
+      ],
+      "answer": 2,
+      "explanation": "감각동사 look 뒤에는 주어의 상태를 설명하는 형용사가 보어로 와야 합니다. '~하게'로 해석되더라도 부사(happily)는 쓸 수 없습니다. (해석: 그녀는 행복해 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The soup smells ____.",
+      "choices": [
+        "well",
+        "goodness",
+        "nicely",
+        "good"
+      ],
+      "answer": 3,
+      "explanation": "감각동사 smell 뒤에는 형용사 보어가 필요합니다. 부사(well)나 명사가 아닌 형용사(good)가 정답입니다. (해석: 그 수프는 좋은 냄새가 난다.)"
+    },
+    {
+      "type": "choice",
+      "question": "His voice sounds ____.",
+      "choices": [
+        "angry",
+        "angrily",
+        "anger",
+        "angryly"
+      ],
+      "answer": 0,
+      "explanation": "감각동사 sound 뒤에는 형용사가 와야 합니다. 부사(angrily)는 올 수 없습니다. (해석: 그의 목소리는 화난 것처럼 들린다.)"
+    },
+    {
+      "type": "choice",
+      "question": "This medicine tastes ____.",
+      "choices": [
+        "bitterly",
+        "bitter",
+        "bitterness",
+        "a bitter"
+      ],
+      "answer": 1,
+      "explanation": "감각동사 taste 뒤에는 형용사 보어가 필요합니다. 부사(bitterly)는 쓸 수 없습니다. (해석: 이 약은 쓴맛이 난다.)"
+    },
+    {
+      "type": "blank",
+      "question": "This blanket feels ____ (부드러운).",
+      "answer": "soft",
+      "explanation": "감각동사 feel 뒤에는 형용사 보어가 필요합니다. '부드러운'에 해당하는 형용사 soft를 씁니다. (해석: 이 담요는 부드럽게 느껴진다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He is a ____ (선생님).",
+      "answer": "teacher",
+      "explanation": "be동사 뒤에 주어의 신분이나 직업을 나타내는 명사 보어가 올 수 있습니다. (해석: 그는 선생님이다.)"
+    },
+    {
+      "type": "blank",
+      "question": "You look ____ (피곤한).",
+      "answer": "tired",
+      "explanation": "감각동사 look 뒤에는 형용사 보어가 필요합니다. '피곤한'에 해당하는 tired를 씁니다. (해석: 너는 피곤해 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "You should keep ____ in the library.",
+      "choices": [
+        "quietly",
+        "quietness",
+        "a quiet",
+        "quiet"
+      ],
+      "answer": 3,
+      "explanation": "상태 유지 동사 keep 뒤에는 주어의 상태를 설명하는 형용사 보어가 와야 합니다. 부사(quietly)는 틀립니다. (해석: 도서관에서는 조용히 해야 한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The door remained ____.",
+      "choices": [
+        "closed",
+        "closely",
+        "closing",
+        "close"
+      ],
+      "answer": 0,
+      "explanation": "상태 유지 동사 remain 뒤에는 형용사(분사 포함) 보어가 와야 합니다. 수동의 의미를 지닌 과거분사형 형용사 closed가 적절합니다. (해석: 그 문은 닫힌 채로 있었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "He stayed ____ all night.",
+      "choices": [
+        "awake",
+        "awaking",
+        "awaken",
+        "awakens"
+      ],
+      "answer": 0,
+      "explanation": "상태 유지 동사 stay 뒤에는 형용사가 보어로 옵니다. '깨어있는'이라는 뜻의 형용사 awake가 정답입니다. (해석: 그는 밤새 깨어 있었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The weather became ____.",
+      "choices": [
+        "warmly",
+        "warmth",
+        "warm",
+        "a warm"
+      ],
+      "answer": 2,
+      "explanation": "상태 변화 동사 become 뒤에는 형용사 보어가 와야 합니다. 부사(warmly)는 올 수 없습니다. (해석: 날씨가 따뜻해졌다.)"
+    },
+    {
+      "type": "blank",
+      "question": "It is getting ____ (어두운) outside.",
+      "answer": "dark",
+      "explanation": "상태 변화 동사 get 뒤에 형용사 보어가 와서 '~해지다'라는 뜻이 됩니다. (해석: 밖이 어두워지고 있다.)"
+    },
+    {
+      "type": "blank",
+      "question": "The leaves turn ____ (빨간) in fall.",
+      "answer": "red",
+      "explanation": "상태 변화 동사 turn 뒤에 형용사 보어가 와서 색깔이나 상태의 변화를 나타냅니다. (해석: 가을에는 나뭇잎들이 빨갛게 변한다.)"
+    },
+    {
+      "type": "blank",
+      "question": "The milk went ____ (상한).",
+      "answer": "bad",
+      "explanation": "상태 변화 동사 go 뒤에 형용사가 오면 '~한 상태가 되다'라는 뜻이 됩니다. go bad는 '상하다'라는 의미입니다. (해석: 우유가 상했다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The river ran ____ during the drought.",
+      "choices": [
+        "dryly",
+        "dryness",
+        "dried",
+        "dry"
+      ],
+      "answer": 3,
+      "explanation": "run이 2형식 동사로 쓰이면 '~한 상태가 되다'라는 뜻을 가집니다. run dry는 '마르다, 고갈되다'라는 뜻입니다. 형용사 보어가 필요합니다. (해석: 그 강은 가뭄 동안 말라버렸다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The baby fell ____ in my arms.",
+      "choices": [
+        "asleep",
+        "sleep",
+        "sleepy",
+        "sleeping"
+      ],
+      "answer": 0,
+      "explanation": "fall이 2형식 상태 변화 동사로 쓰여 fall asleep이 되면 '잠들다'라는 뜻이 됩니다. 형용사 asleep이 보어로 쓰였습니다. (해석: 아기가 내 품에서 잠들었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "It looks ____ a nice day.",
+      "choices": [
+        "as",
+        "to",
+        "like",
+        "for"
+      ],
+      "answer": 2,
+      "explanation": "감각동사 뒤에 명사(구)가 보어로 올 때는 반드시 전치사 like(~처럼)를 써야 합니다. (해석: 좋은 날씨인 것처럼 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "That sounds ____ a great idea.",
+      "choices": [
+        "to",
+        "like",
+        "of",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "sound 뒤에 명사(a great idea)가 오려면 전치사 like가 필요합니다. (해석: 그거 정말 좋은 생각처럼 들린다.)"
+    },
+    {
+      "type": "blank",
+      "question": "This feels ____ (~처럼) real leather.",
+      "answer": "like",
+      "explanation": "feel 뒤에 명사(real leather)가 오려면 전치사 like가 필요합니다. (해석: 이것은 진짜 가죽처럼 느껴진다.)"
+    },
+    {
+      "type": "choice",
+      "question": "She always looks ____.",
+      "choices": [
+        "lovelily",
+        "love",
+        "lovely",
+        "a love"
+      ],
+      "answer": 2,
+      "explanation": "lovely는 형태는 -ly로 끝나지만 명사+ly 형태인 '형용사(사랑스러운)'입니다. 감각동사 look 뒤에 적절하게 올 수 있습니다. (해석: 그녀는 항상 사랑스러워 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "He seems very ____.",
+      "choices": [
+        "friendly",
+        "friendlily",
+        "friend",
+        "a friend"
+      ],
+      "answer": 0,
+      "explanation": "seem 역시 2형식 동사로 뒤에 형용사가 옵니다. friendly는 명사(friend)+ly 형태로 '친절한'이라는 뜻의 형용사입니다. (해석: 그는 매우 친절해 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "They remained ____ for a long time.",
+      "choices": [
+        "friends",
+        "friendly",
+        "friendlily",
+        "friendship"
+      ],
+      "answer": 0,
+      "explanation": "remain 뒤에는 명사 보어도 올 수 있습니다. 주어가 복수(They)이므로 명사 보어도 복수형(friends)이 되어야 합니다. (해석: 그들은 오랫동안 친구로 남았다.)"
+    },
+    {
+      "type": "blank",
+      "question": "Please keep ____ (침착한) during the emergency.",
+      "answer": "calm",
+      "explanation": "상태 유지 동사 keep 뒤에 주어의 상태를 설명하는 형용사 보어 calm이 옵니다. (해석: 비상사태 동안 침착함을 유지해 주세요.)"
+    },
+    {
+      "type": "blank",
+      "question": "We must stay ____ (집중한) on our goals.",
+      "answer": "focused",
+      "explanation": "상태 유지 동사 stay 뒤에 분사형 형용사 보어가 올 수 있습니다. (해석: 우리는 목표에 계속 집중해야 한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The room grew ____.",
+      "choices": [
+        "silently",
+        "silence",
+        "silencing",
+        "silent"
+      ],
+      "answer": 3,
+      "explanation": "grow가 2형식 동사로 쓰이면 '~해지다'라는 뜻의 상태 변화를 나타냅니다. 부사(silently)가 아닌 형용사(silent)가 필요합니다. (해석: 방이 조용해졌다.)"
+    },
+    {
+      "type": "choice",
+      "question": "His face turned ____ with anger.",
+      "choices": [
+        "pale",
+        "palely",
+        "paleness",
+        "a pale"
+      ],
+      "answer": 0,
+      "explanation": "turn이 2형식 상태 변화 동사로 쓰여 색깔이나 안색의 변화를 나타냅니다. 형용사 pale이 정답입니다. (해석: 그의 얼굴은 화가 나서 창백해졌다.)"
+    },
+    {
+      "type": "choice",
+      "question": "Everything went ____.",
+      "choices": [
+        "wrongly",
+        "wrongness",
+        "wrong",
+        "a wrong"
+      ],
+      "answer": 2,
+      "explanation": "go wrong은 '잘못되다'라는 뜻으로, 2형식 동사 go 뒤에 형용사 보어 wrong이 온 형태입니다. (해석: 모든 것이 잘못되었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "My dream finally came ____ (실현된, 진실인).",
+      "answer": "true",
+      "explanation": "come true는 '실현되다'라는 뜻으로, come이 상태 변화 동사로 쓰여 뒤에 형용사 보어 true를 취합니다. (해석: 내 꿈이 마침내 이루어졌다.)"
+    },
+    {
+      "type": "blank",
+      "question": "We are running ____ (부족한) of time.",
+      "answer": "short",
+      "explanation": "run short of는 '~이 부족해지다'라는 뜻으로, 상태 변화 동사 run 뒤에 형용사 보어 short가 온 형태입니다. (해석: 우리는 시간이 부족해지고 있다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The rumor proved ____.",
+      "choices": [
+        "true",
+        "truly",
+        "truth",
+        "a truth"
+      ],
+      "answer": 0,
+      "explanation": "prove는 '~으로 판명되다'라는 뜻의 2형식 동사로 뒤에 형용사 보어가 옵니다. 부사(truly)는 불가합니다. (해석: 그 소문은 사실로 판명되었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The test turned out ____.",
+      "choices": [
+        "difficulty",
+        "difficult",
+        "difficultly",
+        "a difficult"
+      ],
+      "answer": 1,
+      "explanation": "turn out 역시 '~으로 판명되다'라는 뜻의 2형식 동사로 기능하여 뒤에 형용사가 올 수 있습니다. (해석: 그 시험은 어려운 것으로 판명되었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The food looks ____.",
+      "choices": [
+        "deliciously",
+        "deliciousness",
+        "a delicious",
+        "delicious"
+      ],
+      "answer": 3,
+      "explanation": "감각동사 look 뒤에는 형용사 보어가 와야 하므로 delicious가 맞습니다. (해석: 그 음식은 맛있어 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The garbage smells ____.",
+      "choices": [
+        "terrible",
+        "terribly",
+        "terribleness",
+        "a terrible"
+      ],
+      "answer": 0,
+      "explanation": "감각동사 smell 뒤에는 부사(terribly)가 올 수 없고 반드시 형용사(terrible)가 와야 합니다. (해석: 쓰레기에서 지독한 냄새가 난다.)"
+    },
+    {
+      "type": "blank",
+      "question": "Sugar tastes ____ (단).",
+      "answer": "sweet",
+      "explanation": "감각동사 taste 뒤에는 형용사 보어가 옵니다. '단'에 해당하는 형용사 sweet를 씁니다. (해석: 설탕은 단맛이 난다.)"
+    },
+    {
+      "type": "blank",
+      "question": "It sounds ____ (이상한), but it is true.",
+      "answer": "strange",
+      "explanation": "감각동사 sound 뒤에 형용사 보어가 필요합니다. '이상한'에 해당하는 strange를 씁니다. (해석: 이상하게 들리겠지만, 그것은 사실이다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The sky is getting ____.",
+      "choices": [
+        "cloudy",
+        "cloudily",
+        "cloud",
+        "a cloud"
+      ],
+      "answer": 0,
+      "explanation": "get은 상태 변화 동사로 뒤에 형용사 보어를 취합니다. (해석: 하늘이 흐려지고 있다.)"
+    },
+    {
+      "type": "choice",
+      "question": "This sweater feels ____.",
+      "choices": [
+        "cozily",
+        "coziness",
+        "cozy",
+        "a cozy"
+      ],
+      "answer": 2,
+      "explanation": "감각동사 feel 뒤에는 부사(cozily)가 아닌 형용사(cozy)가 와야 합니다. (해석: 이 스웨터는 포근하게 느껴진다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The mystery remains ____.",
+      "choices": [
+        "unsolving",
+        "unsolve",
+        "unsolves",
+        "unsolved"
+      ],
+      "answer": 3,
+      "explanation": "remain 뒤에는 형용사 역할을 하는 분사가 올 수 있습니다. 미스터리가 '풀리지 않은' 수동의 상태이므로 과거분사 unsolved가 적절합니다. (해석: 그 미스터리는 여전히 풀리지 않은 상태이다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She stayed ____ (침묵하는) despite the insult.",
+      "answer": "silent",
+      "explanation": "상태 유지 동사 stay 뒤에는 형용사 보어가 와야 합니다. '침묵하는'이라는 뜻의 형용사 silent를 씁니다. (해석: 모욕에도 불구하고 그녀는 계속 침묵을 지켰다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The cloud looks ____ a rabbit.",
+      "choices": [
+        "like",
+        "as",
+        "same",
+        "similar"
+      ],
+      "answer": 0,
+      "explanation": "감각동사 look 뒤에 명사(a rabbit)가 오려면 반드시 전치사 like를 동반해야 합니다. (해석: 그 구름은 토끼처럼 보인다.)"
+    },
+    {
+      "type": "choice",
+      "question": "This perfume smells ____ roses.",
+      "choices": [
+        "with",
+        "like",
+        "as",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "감각동사 smell 뒤에 명사(roses)가 오려면 전치사 like가 필요합니다. (해석: 이 향수는 장미 같은 향기가 난다.)"
+    },
+    {
+      "type": "choice",
+      "question": "He became a successful ____.",
+      "choices": [
+        "law",
+        "lawful",
+        "lawyer",
+        "lawfully"
+      ],
+      "answer": 2,
+      "explanation": "become 뒤에는 주어의 신분을 나타내는 명사 보어가 올 수 있습니다. a successful을 뒤따를 수 있는 명사인 lawyer가 정답입니다. (해석: 그는 성공한 변호사가 되었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "She became a famous ____ (가수).",
+      "answer": "singer",
+      "explanation": "become 뒤에 주어의 직업을 나타내는 명사 보어가 올 수 있습니다. (해석: 그녀는 유명한 가수가 되었다.)"
+    },
+    {
+      "type": "blank",
+      "question": "He fell ____ (아픈) after eating the seafood.",
+      "answer": "sick",
+      "explanation": "상태 변화 동사 fall 뒤에 형용사 보어 sick가 오면 '병에 걸리다, 아프게 되다'라는 뜻이 됩니다. (해석: 그는 해산물을 먹은 후 병이 났다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The old man went ____.",
+      "choices": [
+        "blindly",
+        "blindness",
+        "a blind",
+        "blind"
+      ],
+      "answer": 3,
+      "explanation": "상태 변화 동사 go 뒤에 형용사 보어 blind가 오면 '눈이 멀게 되다'라는 뜻이 됩니다. (해석: 그 노인은 눈이 멀었다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The dogs ran ____ in the yard.",
+      "choices": [
+        "wild",
+        "wildly",
+        "wildness",
+        "a wild"
+      ],
+      "answer": 0,
+      "explanation": "run wild는 '통제에서 벗어나 제멋대로 굴다, 야생 상태로 되다'라는 뜻으로 run 뒤에 형용사 보어 wild를 씁니다. (해석: 개들이 마당에서 제멋대로 뛰어다녔다.)"
+    },
+    {
+      "type": "choice",
+      "question": "You need to keep ____ in winter.",
+      "choices": [
+        "warmly",
+        "warmth",
+        "warm",
+        "a warm"
+      ],
+      "answer": 2,
+      "explanation": "상태 유지 동사 keep 뒤에는 형용사 보어가 와야 합니다. 부사(warmly)는 쓸 수 없습니다. (해석: 겨울에는 따뜻하게 지내야 한다.)"
+    },
+    {
+      "type": "choice",
+      "question": "The boy grew ____.",
+      "choices": [
+        "tally",
+        "tall",
+        "tallness",
+        "a tall"
+      ],
+      "answer": 1,
+      "explanation": "상태 변화 동사 grow 뒤에 형용사가 오면 '~해지다'라는 뜻이 됩니다. 형용사 tall이 정답입니다. (해석: 그 소년은 키가 컸다.)"
+    },
+    {
+      "type": "choice",
+      "question": "His answer remains a ____.",
+      "choices": [
+        "mysterious",
+        "mysteriously",
+        "mystery",
+        "mysteries"
+      ],
+      "answer": 2,
+      "explanation": "remain 뒤에는 명사 보어도 올 수 있습니다. 관사 'a'가 있으므로 단수 명사인 mystery가 알맞습니다. (해석: 그의 대답은 여전히 미스터리이다.)"
+    }
+  ]
+}
